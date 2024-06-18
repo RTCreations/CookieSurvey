@@ -1,0 +1,55 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background: #ff8f2f url("https://pluspng.com/img-png/cookie-png-cookie-png-image-1680.png") no-repeat center;
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 22px;
+  }
+  /* Test
+  .background {
+    background-color: #3b3b4f;
+    width: 100%;
+    height: 100vh;
+    opacity: 50%;
+    margin: 0 auto;
+    padding: 0 auto;
+    position: absolute;
+    display: flex;
+  }*/
+  h1, p {
+    vertical-align: center;
+    text-align: center;
+    background-color: rgba(60,60,60,0.8);
+    border: 2.5px solid rgba(60,60,60,0.8);
+    max-width: 450px;
+    min-width: 250px;
+    margin: 10px auto;
+  }
+  fieldset {
+    margin: 10px 0;
+    background-color: rgba(60,60,60,0.8);
+    border: none;
+    padding: 1.5rem 5px;
+    border: 2.5px solid rgba(60,60,60,0.8);
+  }
+  label {
+    display: block;
+    margin: 0.75rem 0;
+  }
+  form {
+    width: 80vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  input[type="submit"] {
+    display: block;
+    margin: 10px auto;
+    background-color: rgba(60,60,60,0.8);
+    border: 2.5px solid rgba(60,60,60,0.8);
+    color: white;
+    font-size: 25px;
+  }

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cookie Survey</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="cookie.css">
+  </head>
+  <body>
+    <h1 id="title">Cookie Survey Form</h1>
+    <p id="description">This is a survey about cookies, feel free to express your opinion!</p>
+    <form id="survey-form" method="post" action="">
+      <fieldset>
+        <p>Basic Info</p>
+        <label for="name" id="name-label">First Name <input type="text" id="name" placeholder="Type Here" required></input>
+        <label for="lastname" id="last-name-label">Last Name <input type="text" id="last-name" placeholder="Type Here" required></input>
+        <label for="email" id="email-label">Email Address <input type="email" id="email" placeholder="Type Here" required></input>
+        <label for="age" id="number-label">Age <input type="number" id="number" min="13" max="120" placeholder="Type Here"></input>
+      </fieldset>
+      <fieldset>
+        <p>How do you like your cookies?</p>
+        <label for="chewy"><input type="radio" id="chewy" name="cookie-type" value="1" checked></input>Chewy</label>
+        <label for="crunchy"><input type="radio" id="crunchy" name="cookie-type" value="2">Crunchy</input></label>
+      </fieldset>
+      <fieldset>
+        <p>Your Opinions</p>
+        <label for="cookie-opinion">Do you like cookies?<input class="inline" id="yes-cookie-opinion" type="checkbox" required name="yes-cookie-opinion" value="yes">Yes</input><input class="inline" id="no-cookie-opinion" type="checkbox" required name="no-cookie-opinion" value="no">No</input><input class="inline" id="ok-cookie-opinion" type="checkbox" required name="ok-cookie-opinion" value="okay">I'm Okay With It</input></label>
+      <label for="bio">Describe your opinion about cookies: <textarea id="bio" name="bio" rows="2" cols="32" placeholder="I like coding on the beach..."></textarea>
+      <label for="who">Who makes your favorite cookies?</label>
+      <select id="dropdown" name="who">
+        <option value="">Select One</option>
+        <option value="1">Relatives</option>
+        <option value="2">Grandparents</option>
+        <option value="3">Parents</option>
+        <option value="4">Friends</option>
+        <option value="5">Other</option>
+      </select>
+      </fieldset>
+      <input type="submit" value="Submit" id="submit">
+    </form>
+  </body>
+</html>
